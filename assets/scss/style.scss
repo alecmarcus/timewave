@@ -1,0 +1,65 @@
+body {
+  font: 12pt 'Akkurat Pro';
+  background: rgba(0,0,0,1);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  overflow: hidden;
+}
+
+ul {
+  font-family: monospace;
+  list-style: none;
+  position: fixed;
+  top: 2em;
+  width: 924px;
+  padding: 0 3em 0 1em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    display: inline-block;
+    // width: 100px;
+  }
+}
+
+div.overgrey {
+  width: 50vw;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.35);
+  z-index: -1;
+}
+
+div:nth-of-type(2) {
+  fieldset {
+    input {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+input ~ input {
+  margin-left: 2em;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -2;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+fieldset {
+  display: inline-block;
+  font-family: monospace;
+}
