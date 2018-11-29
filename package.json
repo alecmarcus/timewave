@@ -1,0 +1,29 @@
+{
+  "name": "timewave",
+  "version": "1.0.0",
+  "description": "A new way to visualize the passage of time, using waves.",
+  "main": "index.js",
+  "dependencies": {
+    "p5": "^0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecmarcus/timewave.git"
+  },
+  "keywords": [
+    "time",
+    "p5.js",
+    "visualization",
+    "javascript"
+  ],
+  "author": "Alec Marcus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecmarcus/timewave/issues"
+  },
+  "homepage": "https://github.com/alecmarcus/timewave#readme"
+}
